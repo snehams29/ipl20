@@ -152,49 +152,179 @@
                 </div>
             </div>
 
-         
+            <div class="ap-search">
+                <a href="javascript:;" class="ap-searchClick"><img class="lazy" src="https://www.iplt20.com/assets/images/magnify.png" alt="" style="opacity: 0;"></a>
+               
+                <div class="fan-viewer">
+                    <a onclick="$('#searchTabForHeaderMenu').toggle();"><i class="fa fa-search text-white"></i></a>
+                    <a href="#" class="ap-fanPolls"><img class="lazy" src="https://www.iplt20.com/assets/images/fan-poll.svg" alt=""></a>
+                    <a href="#" class="ap-fanPolls"><img class="lazy" src="https://www.iplt20.com/assets/images/viewers-choice.svg" alt=""></a>
+                </div>
+
+            </div>
 
            
 
         </div>
-		   <div class="ap-orange-header col-100 floatLft flexDisplay justifyCenter">
+         <div class="col-100 floatLft flexDisplay justifySpace alignCenter px-2 pt-2 pb-3" id="searchTabForHeaderMenu" style="display:none;" >
+                <div class="w-100">
+                    <form action="https://www.iplt20.com/search" method="GET">
+                        <div class="row">
+
+                            <div style="width:50%;padding-left: 0">
+                                <input type="text" placeholder="Search here" id="searchInputForHeader" class="form-control w-100" minlength="3" required name="text" value="">
+                            </div>
+                            <div style="width:30%;padding-left: 0">
+                                <select class="form-control w-100" name="type" id="search_type">
+                                    <option value="all" >All</option>
+                                    <option value="video" >Videos</option>
+                                    <option value="news" >News</option>
+                                </select>
+                            </div>
+                            <div style="width:20%;padding-right: 0;padding-left:0">
+                                <button type="submit" id="searchButtonForHeader" class="btn btn-default btn-for-search p-0"> <i class="fa fa-search" aria-hidden="true"></i> <b>&nbsp;Search</b></button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+       
+                <div class="ap-orange-header col-100 floatLft flexDisplay justifyCenter">
             <div class="ap-orange-inner">
                 <span>
-                    <img class="lazy"  alt=""> Trending
+                    <img class="lazy" src="assets/images/trending.html" alt=""> Trending
                 </span>
                 <ul class="ap-inner-nav">
-                                         <li class="navc_1">                                                                                                   
+                                                                                                                                            <li class="navc_1">
                                 <a href="#" target="__blank">
                                     Buy Tickets
                                     <i class="fa fa-angle-right"></i>
                                 </a>
                             </li>
-                                        <li class="navc_2">                                                                                                                 
+                                                                                                                                                                            <li class="navc_2">
                                 <a href="#" target="__blank">
                                     ITT - IPL Media rights
                                     <i class="fa fa-angle-right"></i>
                                 </a>
                             </li>
-                                       <li class="navc_3">                                                                                                                                     
+                                                                                                                                                                            <li class="navc_3">
                                 <a href="#" target="__blank">
                                     TATA IPL 2022 Schedule
                                     <i class="fa fa-angle-right"></i>
                                 </a>
                             </li>
-                                                   <li class="navc_4">                                                                                                                         
+                                                                                                                                                                            <li class="navc_4">
                                 <a href="#" target="__blank">
                                     TATA IPLT20 Squad
                                     <i class="fa fa-angle-right"></i>
                                 </a>
                             </li>
-                                          <li class="navc_5">                                                                                                                                  
+                                                                                                                                                                            <li class="navc_5">
                                 <a href="#" target="__blank">
                                     Fan Contest
                                     <i class="fa fa-angle-right"></i>
                                 </a>
                             </li>
-                       </ul>                                                                 
+                                                                                        </ul>
             </div>
         </div>
-		</header>
-      
+            </header>
+    <!--navigation menu end-->
+    
+        
+ <body class="js-body-content" ng-app="MyApp">
+    <div style="display: none;" class="loader-main">
+         <div class="loader"></div>
+     </div>
+     <!-- widget start -->
+	<div class="SMbriefScoreWidget" ng-controller="controller" smbriefscorewidget widgettype="briefscorewidget" style="display: none"></div>
+
+
+<!-- widget ends -->
+<section class="ap-banner-parent col-100 floatLft relative">
+	<div class="ap-inner-banner-wrp col-100 floatLft relative">
+		<div class="ap-slider-video">
+			
+
+						<div class="ap-video-item ap-item-1 relative">
+				
+				<img class="lazy mobile-height" src="../assets.iplt20.com/bcci/articles/1655276240__RAJ0314%20(1).jpg" alt="">
+
+				<a  href="news/3844/bcci-announces-the-successful-bidders-for-acquiring-the-media-rights-for-the-indian-premier-league-seasons-2023-2027.html"  style="position: absolute;bottom:0;width:100%;height:100%;z-index: 9;">
+				
+				</a>
+
+				<div class="ap-video-content absolute">
+										<a class="ap-watch-btn " href="news/3844/bcci-announces-the-successful-bidders-for-acquiring-the-media-rights-for-the-indian-premier-league-seasons-2023-2027.html">
+					<div class="wv-btn" style="width:80px"><i class="fa fa-book" aria-hidden="true" style="font-size: 14px;padding: 6px 0;"></i>Article</div>
+					</a>
+										<h2 class="ap-video-title col-100 floatLft">BCCI announces the successful bidders for acquiring the Media Rights for the Indian Premier League Seasons 2023-2027</h2>
+					<h3 class="ap-date col-100 floatLft">15 Jun 2022</h3>
+				</div>
+			</div>
+						<div class="ap-video-item ap-item-1 relative">
+				
+				<img class="lazy mobile-height" src="../cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/d5771d5d-a702-49f5-899e-c92cd22d7901/4be25f05-8c40-48d7-bf73-a9df85511384/1280x720/match/image.jpg" alt="">
+
+				<a  href="javascript:void(0);" data-mediaId="6306981922112"  class="ap-watch-btn playerpopup" data-videoslug="46386/reliving-gujarat-titans-ipl-2022-triumph-with-captain-hardik-pandya--head-coach-ashish-nehra" data-videoTitle="Reliving Gujarat Titans&#039; IPL 2022 triumph with Captain Hardik Pandya &amp; Head Coach Ashish Nehra" data-description="" data-short-description="Emotions, insights &amp; a recap of the IPL triumph in their maiden IPL season - On the mic with the GT&#039;s title-winning Captain Hardik Pandya and Head Coach Ashish Nehra." data-videoView="202,986" data-videoDate="30 May, 2022" data-videoId="46386" data-share="https://www.iplt20.com/video/46386/reliving-gujarat-titans-ipl-2022-triumph-with-captain-hardik-pandya--head-coach-ashish-nehra"  style="position: absolute;bottom:0;width:100%;height:100%;z-index: 9;">
+				
+				</a>
+
+				<div class="ap-video-content absolute">
+										<a href="javascript:;" data-mediaId="6306981922112" data-videoTitle="Reliving Gujarat Titans&#039; IPL 2022 triumph with Captain Hardik Pandya &amp; Head Coach Ashish Nehra" data-description="" data-short-description="Emotions, insights &amp; a recap of the IPL triumph in their maiden IPL season - On the mic with the GT&#039;s title-winning Captain Hardik Pandya and Head Coach Ashish Nehra." data-videoView="202,986" data-videoDate="30 May, 2022" data-videoId="46386" data-thumbnile="https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/d5771d5d-a702-49f5-899e-c92cd22d7901/4be25f05-8c40-48d7-bf73-a9df85511384/1280x720/match/image.jpg" data-videoUrl="" data-videoslug="46386/reliving-gujarat-titans-ipl-2022-triumph-with-captain-hardik-pandya--head-coach-ashish-nehra" data-share="https://www.iplt20.com/video/46386/reliving-gujarat-titans-ipl-2022-triumph-with-captain-hardik-pandya--head-coach-ashish-nehra" class="ap-watch-btn ">
+						<div class="wv-btn"><i class="fa fa-caret-right" aria-hidden="true"></i> Watch Video</div>
+					</a>
+										<h2 class="ap-video-title col-100 floatLft">Reliving Gujarat Titans&#039; IPL 2022 triumph with Captain Hardik Pandya &amp; Head Coach Ashish Nehra</h2>
+					<h3 class="ap-date col-100 floatLft">30 May 2022</h3>
+				</div>
+			</div>
+						<div class="ap-video-item ap-item-1 relative">
+				
+				<img class="lazy mobile-height" src="../cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/313720f4-667c-437a-8c8d-e34af8968ffc/ff2335bc-a243-4301-aa4f-470a6b4abd14/1280x720/match/image.jpg" alt="">
+
+				<a  href="javascript:void(0);" data-mediaId="6306985579112"  class="ap-watch-btn playerpopup" data-videoslug="46390/capping-off-gujarat-titans-ipl-2022-win-with-rashid-khan-and-david-miller-" data-videoTitle="Capping off Gujarat Titans&#039; IPL 2022 win with Rashid Khan and David Miller " data-description="" data-short-description="A victory in their maiden IPL season, the GT duo of Rashid Khan and David Miller speak about the journey, special memories, learnings and much more " data-videoView="144,393" data-videoDate="30 May, 2022" data-videoId="46390" data-share="https://www.iplt20.com/video/46390/capping-off-gujarat-titans-ipl-2022-win-with-rashid-khan-and-david-miller-"  style="position: absolute;bottom:0;width:100%;height:100%;z-index: 9;">
+				
+				</a>
+
+				<div class="ap-video-content absolute">
+										<a href="javascript:;" data-mediaId="6306985579112" data-videoTitle="Capping off Gujarat Titans&#039; IPL 2022 win with Rashid Khan and David Miller " data-description="" data-short-description="A victory in their maiden IPL season, the GT duo of Rashid Khan and David Miller speak about the journey, special memories, learnings and much more " data-videoView="144,393" data-videoDate="30 May, 2022" data-videoId="46390" data-thumbnile="https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/313720f4-667c-437a-8c8d-e34af8968ffc/ff2335bc-a243-4301-aa4f-470a6b4abd14/1280x720/match/image.jpg" data-videoUrl="" data-videoslug="46390/capping-off-gujarat-titans-ipl-2022-win-with-rashid-khan-and-david-miller-" data-share="https://www.iplt20.com/video/46390/capping-off-gujarat-titans-ipl-2022-win-with-rashid-khan-and-david-miller-" class="ap-watch-btn ">
+						<div class="wv-btn"><i class="fa fa-caret-right" aria-hidden="true"></i> Watch Video</div>
+					</a>
+										<h2 class="ap-video-title col-100 floatLft">Capping off Gujarat Titans&#039; IPL 2022 win with Rashid Khan and David Miller </h2>
+					<h3 class="ap-date col-100 floatLft">30 May 2022</h3>
+				</div>
+			</div>
+						<div class="ap-video-item ap-item-1 relative">
+				
+				<img class="lazy mobile-height" src="../cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/13d385bb-5454-4528-81f5-ad7db9e4a389/91409203-c739-46c2-875b-25b1a0f58b03/1280x720/match/image.jpg" alt="">
+
+				<a  href="javascript:void(0);" data-mediaId="6306988710112"  class="ap-watch-btn playerpopup" data-videoslug="46399/-tata-ipl-2022-top-moments" data-videoTitle=" TATA IPL 2022: Top Moments" data-description="" data-short-description="" data-videoView="394,475" data-videoDate="30 May, 2022" data-videoId="46399" data-share="https://www.iplt20.com/video/46399/-tata-ipl-2022-top-moments"  style="position: absolute;bottom:0;width:100%;height:100%;z-index: 9;">
+				
+				</a>
+
+				<div class="ap-video-content absolute">
+										<a href="javascript:;" data-mediaId="6306988710112" data-videoTitle=" TATA IPL 2022: Top Moments" data-description="" data-short-description="" data-videoView="394,475" data-videoDate="30 May, 2022" data-videoId="46399" data-thumbnile="https://cf-images.eu-west-1.prod.boltdns.net/v1/static/3588749423001/13d385bb-5454-4528-81f5-ad7db9e4a389/91409203-c739-46c2-875b-25b1a0f58b03/1280x720/match/image.jpg" data-videoUrl="" data-videoslug="46399/-tata-ipl-2022-top-moments" data-share="https://www.iplt20.com/video/46399/-tata-ipl-2022-top-moments" class="ap-watch-btn ">
+						<div class="wv-btn"><i class="fa fa-caret-right" aria-hidden="true"></i> Watch Video</div>
+					</a>
+										<h2 class="ap-video-title col-100 floatLft"> TATA IPL 2022: Top Moments</h2>
+					<h3 class="ap-date col-100 floatLft">30 May 2022</h3>
+				</div>
+			</div>
+					</div>
+
+
+	</div>
+		<div class="ap-stat-table mr-mid">
+			<div class="ap-tabs-wrp col-100 floatLft flexDisplay justifySpace">
+				<a href="#" target="_blank" class="ap-common-tab ap-standings-click inactive" style="display:block !important;"> <i class="fa fa-twitter"></i> Tweet</a>
+			</div>
+		</div>
+</section>
+
+
+
+
+
